@@ -1,0 +1,1 @@
+export { checkTeamName } from './team'

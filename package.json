@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.25.0",
+  "scripts": {
+    "deliver": "esno scripts/deliver.ts",
+    "lint": "eslint . --fix",
+    "lint:inspector": "eslint --inspect-config",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "6.7.3",
+    "@gitbeaker/rest": "41.3.0",
+    "@types/jira-client": "7.1.9",
+    "@types/node": "24.1.0",
+    "commander": "12.1.0",
+    "dotenv": "16.4.5",
+    "eslint": "9.39.2",
+    "esno": "4.8.0",
+    "jira-client": "8.2.2",
+    "typescript": "5.7.2"
+  }
+}
